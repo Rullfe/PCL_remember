@@ -1,0 +1,149 @@
+<local:MyCard Title="致我们曾经的 PCL" Margin="-27,-27,-27,15" Height="40">
+    <local:MyIconTextButton Margin="0,5,7,6" Height="35" HorizontalAlignment="Right"
+        Text="刷新" EventType="刷新主页" ColorType="Highlight" Logo="M875 483c-33.4 0-60.5 27.1-60.5 60.5v0.1C814.4 710.3 678.8 846 512 846S209.5 710.3 209.5 543.5 345.2 241 512 241c36.8 0 71.7 7.6 104.4 19.7-32 3-57.4 29.1-57.4 61.9 0 34.8 28.2 63 63 63h201.9c34.8 0 63-28.2 63-63V120c0-34.8-28.2-63-63-63s-63 28.2-63 63v81.4C691 150.5 605.2 120 512 120 278.1 120 88.5 309.6 88.5 543.5S278.1 967 512 967s423.5-189.6 423.5-423.5c0-33.4-27.1-60.5-60.5-60.5z"/>
+</local:MyCard>
+
+<local:MyCard Title="Plain Craft Launcher · 致往昔" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="30"
+                    Text="怀念那个一键下载资源的 PCL" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="开拓者，现在是{date}，欢迎回到这个方块世界。愿你还记得，当年那个进度条走完后，踏入mc的瞬间。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="本主页为玩家自制怀念主题，非官方页面，不针对任何个人引战。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="▼ ▼ ▼ 下面是纪念向链接，点击可跳转 ▼ ▼ ▼" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- ===== 纪念龙猫 GitHub 专属卡片 ===== -->
+<local:MyCard Title="🕯️ 纪念：龙猫的 GitHub" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,8,0,2" Text="虽然账号已被封禁，但我们永远记得这位独立开发者" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="龙腾猫跃（龙猫）— PCL 启动器作者，一人撑起整个项目" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="点击下方按钮，跳转至他的 GitHub 主页（已被封禁页面，仅作纪念）" />
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="🕯️ 龙猫的 GitHub 主页" EventType="打开网页" EventData="https://github.com/LTCat-zz" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="PCL 旧仓库(已归档)" EventType="打开网页" EventData="https://github.com/LTCat-zz/PCL" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="龙猫的 B 站空间" EventType="打开网页" EventData="https://space.bilibili.com/147075" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="PCL 社区镜像仓库" EventType="打开网页" EventData="https://github.com/PCL-Community/Plain-Craft-Launcher" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="曾经的 PCL" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,8,0,2" Text="那是我们最熟悉的样子" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="· 原版游戏一键下载，新旧版本、快照版本应有尽有" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="· 免费、开源、干净，无数 Java 版玩家的入坑起点" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="那时，只需要等待进度条走完，就能踏入熟悉的方块世界。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="后来发生了什么" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,8,0,2" Text="⚠️ 以下均为社群传闻，无官方通报佐证" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="· 网传起因：未成年玩家在私服大额充值，家长举报私服时连带举报 PCL" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="· 2026-10-20：PCL 推送 2.99.0.0 版本，为合规不再提供游戏本体下载功能" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="· 同期 HMCL 等多款第三方启动器同步限制资源下载通道" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="· 项目遭遇大规模 DDoS 攻击，作者龙腾猫跃（龙猫）GitHub 主账号被封" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="作者（龙猫）备注：此事与网易、微软无关。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="现在的 PCL" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="PCL 依然可以打开，已经安装好的存档、版本、模组都还在。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="只是那个一键拉取原版资源的时代，暂时落幕了。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="独立开发者做免费工具本就不容易，没有盈利，全靠热爱支撑。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="我们怀念的不只是下载功能，是曾经低门槛、简单纯粹的方块乐趣。" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- ===== MC 像素风配色卡片 ===== -->
+<local:MyCard Title="🎮 MC 玩家纪念墙" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,8,0,2" Text="在评论区留下你的故事吧" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="🟩 绿色 = 生存党 / 原版玩家" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="🟨 黄色 = 建筑党 / 创造模式" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="🟥 红色 = 模组党 / 整合包玩家" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="⬜ 白色 = 红石工程师 / 技术玩家" />
+        <local:MyHint Margin="0,8,0,2" Theme="Yellow"
+                    Text="你还记得，第一次打开 PCL 的那天吗？" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="快捷按钮" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+            Text="点击按钮可访问相关链接" />
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="龙猫的B站空间" EventType="打开网页" EventData="https://space.bilibili.com/147075" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="PCL官方仓库(镜像)" EventType="打开网页" EventData="https://github.com/PCL-Community/Plain-Craft-Launcher" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="🕯️ 纪念龙猫 GitHub" EventType="打开网页" EventData="https://github.com/LTCat-zz" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="PCL 官方文档(归档)" EventType="打开网页" EventData="https://pcldoc.cqm1072.top" />
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <Line X1="100" Y1="30" Stroke="{DynamicResource ColorBrush3}" Stretch="Fill"
+            StrokeThickness="2" Grid.Row="1" />
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="打开启动器目录" EventType="打开启动器目录" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="内存优化" EventType="内存优化" />
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <Line X1="100" Y1="30" Stroke="{DynamicResource ColorBrush8}" Stretch="Fill"
+            StrokeThickness="2" Grid.Row="1" />
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="启动已安装的游戏" EventType="启动游戏" EventData="" />
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="今日人品" EventType="今日人品" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<StackPanel>
+    <Border Height="220" Margin="-25,10,-25,-20"
+        BorderThickness="0,2,0,0" BorderBrush="#5a9e5a">
+        <StackPanel Margin="40,15,0,20">
+            <TextBlock Text="致每一位 MC 玩家" Foreground="#5a9e5a" FontSize="16" Margin="0,5,5,5" />
+            <TextBlock>愿方块的星光不会消失<LineBreak />愿热爱 MC 的人，依旧保有建造的初心<LineBreak />Plain Craft Launcher 作者：龙腾猫跃（龙猫）<LineBreak /></TextBlock>
+            <TextBlock>🕯️ 感谢龙猫多年的无偿付出，我们永远记得那个一键下载的时代。<LineBreak /></TextBlock>
+            <TextBlock>本主页为玩家自制怀念主题，采用 AGPL-3.0 协议，与 PCL 官方无关。<LineBreak /></TextBlock>
+        </StackPanel>
+    </Border>
+</StackPanel>
